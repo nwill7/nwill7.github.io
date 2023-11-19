@@ -39,6 +39,11 @@ img{
   width: 60%;
 }
 
+ul, ol{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
 .proj{
   text-align: left;
 }
