@@ -9,7 +9,9 @@
 }
 
 .imgcol{
+  float: right;
   align-content: center;
+  width: 26.66%;
 }
 
 .leftcol{
