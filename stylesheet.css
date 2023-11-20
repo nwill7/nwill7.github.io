@@ -15,6 +15,15 @@ body{
   object-fit: cover;
 }
 
+.proj-card{
+  margin: 0px;
+  background-image: url(assets/windowneon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  object-fit: cover;
+}
+
 div{
   display: block;
 }
@@ -25,6 +34,7 @@ div{
 }
 
 .tripcol{
+  margin: 5pt;
   float: left;
   width: 26.66%;
 }
@@ -48,6 +58,12 @@ div{
 }
 
 .row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.proj-card:after{
   content: "";
   display: table;
   clear: both;
