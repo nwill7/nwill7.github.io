@@ -1,8 +1,19 @@
-.body{
-  background-image: url(assets/pcdeskclean.png);
+body{
+  color: white;
+  background-image: url(assets/catman1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.window-bg{
+  opacity: .7;
+  margin: 0px;
+  background-image: url(assets/windowneon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  object-fit: cover;
 }
 
 .dblcol{
