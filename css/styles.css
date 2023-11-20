@@ -1,3 +1,10 @@
+.body{
+  background-image: url(assets/pcdeskclean.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .dblcol{
   float: left;
   width: 40%;
