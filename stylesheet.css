@@ -7,13 +7,16 @@ body{
 }
 
 .window-bg{
-  opacity: .7;
   margin: 0px;
   background-image: url(assets/windowneon.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   object-fit: cover;
+}
+
+div{
+  display: block;
 }
 
 .dblcol{
@@ -32,14 +35,14 @@ body{
   width: 26.66%;
 }
 
-.leftcol{
+.leftindex{
   float: left;
   width: 20%;
   text-align: center;
   padding: 50% 0;
 }
 
-.rightcol{
+.rightindex{
   float: right;
   width: 80%;
 }
