@@ -1,6 +1,8 @@
 body{
+  margin: 0px;
   color: white;
   background-image: url(assets/catman1.png);
+  backdrop-filter: invert(10%) blur(4px) sepia(70%);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -49,7 +51,7 @@ div{
   float: left;
   width: 20%;
   text-align: center;
-  padding: 50% 0;
+  padding: 25% 0;
 }
 
 .rightindex{
