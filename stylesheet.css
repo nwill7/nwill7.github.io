@@ -13,17 +13,14 @@ body{
   background-image: url(assets/windowneon.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 100%;
-  object-fit: cover;
 }
 
-.proj-card{
-  margin: 0px;
+.card-bg{
+  margin: 10px;
   background-image: url(assets/windowneon.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
-  object-fit: cover;
 }
 
 div{
@@ -65,7 +62,7 @@ div{
   clear: both;
 }
 
-.proj-card:after{
+.card-bg:after{
   content: "";
   display: table;
   clear: both;
