@@ -1,23 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body{
   margin: 0px;
-  color: white;
-  background-image: url(assets/catman1.png);
-  backdrop-filter: invert(10%) blur(4px) sepia(70%);
+  color: rgb(255, 255, 255);
+  background-image: url(assets/bg6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: 'Inter', sans-serif;
 }
 
 .window-bg{
-  margin: 0px;
-  background-image: url(assets/windowneon.png);
-  background-repeat: no-repeat;
+  margin: 15px;
+  max-width: fit-content;
   background-size: contain;
+  padding: 10px 15px;
+  background-color: #0000003b;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px #000000;
 }
 
 .card-bg{
   margin: 10px;
-  background-image: url(assets/windowneon.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -45,10 +49,13 @@ div{
 }
 
 .leftindex{
-  float: left;
+  margin: 0 auto;
+  position: fixed;
   width: 20%;
   text-align: center;
+  justify-content: center;
   padding: 25% 0;
+  display: grid;
 }
 
 .rightindex{
