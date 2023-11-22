@@ -40,6 +40,12 @@ div{
   display: block;
 }
 
+.projimg img { 
+  padding:10px;
+  float: left;
+  width: 240px;
+}
+
 .dblcol{
   float: left;
   width: 40%;
@@ -82,13 +88,6 @@ div{
   content: "";
   display: table;
   clear: both;
-}
-
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
 }
 
 ul, ol{
