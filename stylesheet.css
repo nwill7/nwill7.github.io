@@ -74,7 +74,8 @@ div{
   width: 20%;
   text-align: center;
   justify-content: center;
-  padding: 25% 0;
+  /*padding: 25% 0;*/
+  transform: translate(0, 31%);
   display: grid;
 }
 
