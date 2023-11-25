@@ -40,6 +40,11 @@ div{
   display: block;
 }
 
+.headshot img{
+  padding: 10pt;
+  float: center;
+  width: 180pt;
+}
 .projimg img { 
   padding:10px;
   float: left;
