@@ -22,7 +22,7 @@ body{
 
 .card-bg{
   margin: 25px;
-  max-width: fit-content;
+  width: 90%;
   background-size: contain;
   padding: 10px 15px;
   background-color: #0000003b;
@@ -44,11 +44,6 @@ div{
   padding: 10pt;
   float: center;
   width: 180pt;
-}
-.projimg img { 
-  padding:10px;
-  float: left;
-  width: 240px;
 }
 
 .dblcol{
@@ -73,15 +68,17 @@ div{
   position: fixed;
   width: 20%;
   text-align: center;
-  justify-content: center;
+  justify-content: left;
   /*padding: 25% 0;*/
   transform: translate(0, 31%);
   display: grid;
 }
 
+
 .rightindex{
-  float: right;
+  justify-content: left;
   width: 80%;
+  padding-left: 20%;
 }
 
 .row:after{
@@ -99,9 +96,20 @@ div{
 ul, ol{
   margin-left: 0px;
   margin-bottom: 0px;
-  padding-left: 0px;
 }
 
 .proj{
   text-align: left;
+  padding-left: auto;
+}
+
+.work{
+  text-align: left;
+  padding-left: auto;
+}
+
+.projimg img { 
+  padding:10px;
+  float: left;
+  width: 240px;
 }
