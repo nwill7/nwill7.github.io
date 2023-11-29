@@ -113,3 +113,14 @@ ul, ol{
   float: left;
   width: 180px;
 }
+
+.techskill{
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  margin: 10px;
+}
+
+.techskill img{
+  width: 64pt;
+}
