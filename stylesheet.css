@@ -12,6 +12,7 @@ body{
 
 .leftindex{
   position: fixed;
+  z-index: 1;
   width: 250pt;
   text-align: center;
   margin: 0 auto;
@@ -76,6 +77,12 @@ body{
   float: right;
   align-content: center;
   width: 26.66%;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+  z-index: 2;
 }
 
 .row:after{
