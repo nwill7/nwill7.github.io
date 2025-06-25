@@ -24,10 +24,10 @@ body{
 
 
 .rightindex{
-  position: absolute;
-  justify-content: left;
-  width: 80%;
-  padding-left: 250pt;
+  position: relative;
+  width:calc(100% - 270pt);
+  margin-left: 270pt;
+  padding: 20px;
 }
 
 .window-bg{
@@ -85,6 +85,11 @@ a{
   z-index: 2;
 }
 
+.row{
+  text-align: left;
+  vertical-align: middle;
+}
+
 .row:after{
   content: "";
   display: table;
@@ -99,6 +104,7 @@ a{
 
 ul, ol{
   margin: 15px 0px;
+  list-style-type: none;
 }
 
 .proj{
@@ -128,4 +134,38 @@ ul, ol{
 
 .techskill img{
   width: 32pt;
+}
+
+
+
+
+
+/*mobile responsiveness*/
+@media (max-width: 768pt){
+  .leftindex{
+    position: relative;
+    width: 100%;
+    transform: none;
+    text-align: center;
+  }
+
+  .rightindex{
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .headshot{
+    width: 100px;
+  }
+
+  .dblcol, .tripcol, .imgcol{
+    width: 100%;
+    float: none;
+  }
+
+  .projimg img{
+    width: 100%;
+    float: none;
+  }
 }

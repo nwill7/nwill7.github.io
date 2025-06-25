@@ -7,15 +7,23 @@
     <title>Nathan Will's Portfolio</title>
 </head>
 <body>
+
+  <nav class="navbar">
+    <a href="#education">Education</a>
+    <a href="#work">Work</a>
+    <a href="#proj">Projects</a>
+    <a href="#techskills">Skills</a>
+  </nav>
+
+
   <main>
     <section class="leftindex">
       <div class="window-bg">
         <div class="row">
-          <!--Need to add headshot here-->
           <div class="headshot"><img src="assets/headshot1.jpg"></div>
-          <div class="section-title"><h><b>Nathan Will</b></h></div>
+          <div class="section-title"><h1><b>Nathan Will</b></h1></div>
         </div>
-        <div class="row">
+        <div>
           <p><b>Software Engineer</b><br>
             <i>Pushing the boundaries of what is possible</i>
           <i><br><br>858-254-4859<br>San Diego, CA<br><a href="mailto:nwill711@gmail.com">nwill711@gmail.com</a></href><br><a href="https://www.linkedin.com/in/nwill711/" target="_blank">linkedin.com/in/nwill711</a></i></p>
@@ -27,7 +35,7 @@
     <section class="rightindex">
 
       <!--Education Section-->
-      <section class="education">
+      <section class="education" id="education">
         <div class="section-title">
           <div class="row">
               <h2><b>Education</b></h>
@@ -47,15 +55,15 @@
 
           <div>
             <div class="projimg"><a href="https://w2.csun.edu/" target="_blank"><img src="assets/CSUN_Matadors_logo.png"></a></div>
-            <ul>Attended CSUN August 2020 through Dececmber 2020 graduating in the spring of 2023.</ul>
-            <ul>At CSUN, I focussed on game dev while also following interests in databases and web dev.</ul>
-            <ul>CSUN  was rated the No. 2 public university in California according to the Wall Street Journal/College Pulse 2024</ul>
+            <p>Attended CSUN August 2020 through Dececember 2020 graduating in the spring of 2023.</p>
+            <p>At CSUN, I focussed on game dev while also following interests in databases and web dev.</p>
+            <p>CSUN  was rated the No. 2 public university in California according to the Wall Street Journal/College Pulse 2024</p>
           </div>
         </div>
     </section><!--End of Eduaction Section-->
 
       <!--Work Experience Section... Maybe move above Projects-->
-      <section class="work">
+      <section class="work" id="work">
         <div class="section-title">  
           <div class="row">
             <h2><b>Work Experience</b></h>
@@ -73,10 +81,10 @@
           </div>
           <div class="row">
             <div>
-              <ul>Interactive streaming platform built for games such as Scene It? and Family Feud</ul>
-              <ul>Identified recurring problems with the quality of the product.</ul>
-              <ul>Documented blocker bugs and raised priority fixes to developers</ul>
-              <ul>Performed black box testing on multiple platforms to ensure the applicaiton meets the initially set requirements</ul>
+              <p>Interactive streaming platform built for games such as Scene It? and Family Feud</p>
+              <p>Identified recurring problems with the quality of the product.</p>
+              <p>Documented blocker bugs and raised priority fixes to developers</p>
+              <p>Performed black box testing on multiple platforms to ensure the application meets the initially set requirements</p>
             </div>
           </div>
           
@@ -90,11 +98,11 @@
         </div>
         <div class="row">
           <div>
-            <ul>Cybersecurity solutions that protect video content, streaming media, mobile applications, webtsites, and APIs</ul>
-            <ul>Automated status reports for product owners/managers on a weekly basis</ul>
-            <ul>Responsible for planning, tracking, and status reporting for program objectives, team objectives, risks, and releases</ul>
-            <ul>Coordinated quarterly Program Increment(PI) planning activities under Scaled Agile Framework (SAFe)</ul>
-            <ul>Facilitated the communication of the goals of the PI, team breakouts and commitments, as well as the identificaiton of risks and dependencies</ul>
+            <p>Cybersecurity solutions that protect video content, streaming media, mobile applications, websites, and APIs</p>
+            <p>Automated status reports for product owners/managers on a weekly basis</p>
+            <p>Responsible for planning, tracking, and status reporting for program objectives, team objectives, risks, and releases</p>
+            <p>Coordinated quarterly Program Increment(PI) planning activities under Scaled Agile Framework (SAFe)</p>
+            <p>Facilitated the communication of the goals of the PI, team breakouts and commitments, as well as the identification of risks and dependencies</p>
           </div>
         </div>
       </div>
@@ -102,7 +110,7 @@
       </section> <!--End of Work Experience Section-->
 
       <!--Project Section-->
-      <section class="proj">
+      <section class="proj" id="proj">
         <div class="section-title">
           <div class="row">
               <h2><b>Projects</b></h>
@@ -115,9 +123,9 @@
           </div>
           <div>
             <div class="projimg"><a href="https://www.linkedin.com/in/nwill711/" target="_blank"><img src="assets/3dModel.JPG"></a></div>
-            <ul><br><br>Created a 3d model in blender from a single image.</ul>
-            <ul>This program uses python scripts to read in .jpg or .png, process the photo to import to blender and create a 3d model of the region of interest from the image.</ul>
-            <ul></ul>
+            <p><br><br>Created a 3d model in blender from a single image.</p>
+            <p>This program uses python scripts to read in .jpg or .png, process the photo to import to blender and create a 3d model of the region of interest from the image.</p>
+            <p></p>
           </div>
 
           <div>
@@ -125,8 +133,8 @@
           </div>
           <div>
             <div class="projimg"><a href="https://www.linkedin.com/in/nwill711/" target="_blank"><img src="assets/Nate1.jpg"></a></div>
-              <ul><br>Developed, designed, and styled a portfolio website that allows users immediate and constant access to developer's information.</ul>
-              <ul>This website is designed to keep the developer's contact information at forefront of the user's search.</ul>
+              <p><br>Developed, designed, and styled a portfolio website that allows users immediate and constant access to developer's information.</p>
+              <p>This website is designed to keep the developer's contact information at forefront of the user's search.</p>
           </div>
 
           <div class="row">
@@ -135,8 +143,8 @@
           <div class="row">
             <div>
               <div class="projimg"><a href="https://www.linkedin.com/in/nwill711/" target="_blank"><img src="assets/Blog.JPG"></a></div>
-                <ul><br>Designed and implemented a database schema for managing a social network website. Created user registration and database initialization that creates and populates necessary tables automatically.</ul>
-                <ul>Created with HTML, CSS, PHP, SQL</ul>
+                <p><br>Designed and implemented a database schema for managing a social network website. Created user registration and database initialization that creates and populates necessary tables automatically.</p>
+                <p>Created with HTML, CSS, PHP, SQL</p>
             </div>
           </div>
           
@@ -146,8 +154,10 @@
           <div class="row">
             <div>
               <div class="projimg"><a href="https://www.linkedin.com/in/nwill711/" target="_blank"><img src="assets/QAQuitAnytime.JPG"></a></div>
-                <ul><br>Planned, designed and created a game with a satirical view on the life of a QA engineer at an indie game company.</ul>
-                <ul>Created in Unity, used mongodb to store, retrieve and display data</ul>
+              <ul>    
+                <li><br>Planned, designed and created a game with a satirical view on the life of a QA engineer at an indie game company.</li>
+                <li>Created in Unity, used mongodb to store, retrieve and display data</li>
+              </ul>
             </div>
           </div>
 
@@ -157,9 +167,11 @@
           <div class="row">
             <div>
               <div class="projimg"><a href="https://www.linkedin.com/in/nwill711/" target="_blank"><img src="assets/SportsHub.JPG"></a></div>
-              <ul>Designed, planned, created a website that displayed stats of all NBA players, teams, leagues, etc.</ul>
-              <ul>Parsed data collected from an external server using API calls.</ul>
-              <ul>Website was created with vue.js, html and css.</ul>
+              <ul>
+                <li>Designed, planned, created a website that displayed stats of all NBA players, teams, leagues, etc.</li>
+                <li>Parsed data collected from an external server using API calls.</li>
+                <li>Website was created with vue.js, html and css.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -167,7 +179,7 @@
       </section><!--End of Projects Section-->
 
     <!--Technical Skills Section-->
-    <section class="techskills">
+    <section class="techskills" id="techskills">
       <div class="section-title">
         <div class="row">
             <h2><b>Technical Skills</b></h>
