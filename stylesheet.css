@@ -171,30 +171,51 @@ ul, ol{
 
 /*mobile responsiveness*/
 @media (max-width: 768pt){
+  body{
+    padding: 0 10px;
+    background-size: cover;
+  }
+
   .leftindex{
     position: relative;
     width: 100%;
     transform: none;
     text-align: center;
+    margin-bottom: 30px;
   }
 
   .rightindex{
     width: 100%;
-    padding-left: 0;
+    padding: 0;
     margin-left: 0;
   }
 
   .headshot{
-    width: 100px;
+    width: 120px;
+    height: auto;
   }
 
-  .dblcol, .tripcol, .imgcol{
-    width: 100%;
+  .row, .dblcol, .tripcol, .imgcol{
     float: none;
+    width: 100%;
+    display: block;
+    text-align: center;
   }
 
   .projimg img{
-    width: 100%;
+    width: 90%;
+    max-width: 300px;
     float: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .techskill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .techskill img{
+    margin: 10px;
   }
 }
