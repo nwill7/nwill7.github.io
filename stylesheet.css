@@ -59,16 +59,28 @@ body{
 
 .rightindex{
   position: relative;
-  margin-left: 200pt;
+  margin-left: calc(2.5% + 250px + 20px);/*left index offset + width + padding*/
+  width: calc(100% - (2.5% + 250px + 40px));
   padding: 20px;
-  width: calc(100% - 320px);
   box-sizing: border-box;
 }
 
-.window-bg, .card-bg{
+.window-bg{
   margin: 25px;
   width: 100%;
   max-width: 400px;
+  background-size: contain;
+  padding: 20px;
+  background-color: #0000003b;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px #000000;
+  box-sizing: border-box;
+}
+
+.card-bg{
+  margin: 25px auto;
+  width: 100%;
+  max-width: 1000px;
   background-size: contain;
   padding: 20px;
   background-color: #0000003b;
