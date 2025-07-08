@@ -56,12 +56,6 @@ body{
   flex-direction: column;
   align-items: center;
 }
-.window-bg{
-  width: 100%;
-  max-width: 400px;
-  margin: auto;
-}
-
 
 .rightindex{
   position: relative;
@@ -71,24 +65,16 @@ body{
   box-sizing: border-box;
 }
 
-.window-bg{
+.window-bg, .card-bg{
   margin: 25px;
-  max-width: fit-content;
+  width: 100%;
+  max-width: 400px;
   background-size: contain;
-  padding: 10px 15px;
+  padding: 20px;
   background-color: #0000003b;
   border-radius: 20px;
   box-shadow: 2px 2px 4px #000000;
-}
-
-.card-bg{
-  margin: 25px;
-  width: 90%;
-  background-size: contain;
-  padding: 10px 15px;
-  background-color: #0000003b;
-  border-radius: 20px;
-  box-shadow: 2px 2px 4px #000000;
+  box-sizing: border-box;
 }
 
 .section-title{
@@ -99,7 +85,6 @@ body{
 
 .headshot img{
   padding: 10pt;
-  float: center;
   width: 180pt;
 }
 
@@ -131,13 +116,7 @@ a{
   vertical-align: middle;
 }
 
-.row:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.card-bg:after{
+.row:after, .card-bg:after{
   content: "";
   display: table;
   clear: both;
@@ -148,12 +127,7 @@ ul, ol{
   list-style-type: none;
 }
 
-.proj{
-  text-align: left;
-  padding-left: auto;
-}
-
-.work{
+.proj, .work{
   text-align: left;
   padding-left: auto;
 }
@@ -201,30 +175,33 @@ h1{
     flex-direction: column;
     align-items: center;
   }
-  .leftindex{
+  .leftindex,
+  .rightindex{
     position: relative !important;
-    width: 100% !important;
+    width: 90% !important;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .leftindex{
     top: auto !important;
     left: auto !important;
     transform: none !important;
-    margin: 0 auto;
-    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     outline: 2px dashed red;
   }
   .rightindex{
+    text-align: left;
     outline: 2px dashed blue;
-    width: 100%;
-    margin-left: 0;
-    padding: 10px;
-    margin-top: 20px;
   }
-  .window-bg{
-    width: 90%;
-    max-width: 400px;
+  .window-bg, .card-bg{
+    width: 100%;
     margin: 0 auto;
+    padding: 20px;
   }
 
   .headshot{
