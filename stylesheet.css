@@ -45,15 +45,16 @@ body{
 }
 
 .leftindex{
+  position: fixed;
   width: 250px;
-  min-width: 200px;
-  max-width: 90vw;
+  top: 52%;
+  left: 2.5%;
+  transform: translateY(-50%);
+  z-index: 1;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-sizing: border-box;
-  margin: 0 auto;
 }
 .window-bg{
   width: 100%;
@@ -63,9 +64,11 @@ body{
 
 
 .rightindex{
-  flex: 1;
-  min-width: 300px;
-  margin-left: 40pt;
+  position: relative;
+  margin-left: 200pt;
+  padding: 20px;
+  width: calc(100% - 320px);
+  box-sizing: border-box;
 }
 
 .window-bg{
@@ -198,23 +201,32 @@ h1{
     flex-direction: column;
     align-items: center;
   }
-
-  .leftindex,
-  .rightindex{
-    width: 100%;
-    margin-left: 0;
-    padding: 0;
+  .leftindex{
+    position: relative !important;
+    width: 100% !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px dashed red;
   }
   .rightindex{
+    outline: 2px dashed blue;
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
     margin-top: 20px;
-
   }
   .window-bg{
     width: 90%;
     max-width: 400px;
     margin: 0 auto;
   }
-  
+
   .headshot{
     width: 120px;
     height: auto;
